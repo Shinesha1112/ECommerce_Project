@@ -1,0 +1,43 @@
+
+#shopContent{
+    background-image: url("../img/banner/s1.jpg");
+    height:50vh;
+    width:100%;
+    background-size:cover;
+    background-position: top 25% ;
+    background-repeat: no-repeat;
+    padding: 0 75px;
+    display: flex;
+    flex-direction:column;
+    align-items:center ;
+    justify-content:center;
+    color:black;
+    font-size: 20px;
+    background-color: bisque;
+   }
+   #shopContent h3{
+    color:bisque
+   }
+   #shopContent h4{
+    color:lightcoral;
+   }
+#pagination{
+    text-align: center;
+    margin: 20px;
+  }
+ #pagination a{
+    text-decoration: none;
+    background-color:rgb(90, 4, 4);
+    padding:15px 20px;
+    border-radius: 4px;
+    color:white ;
+    font-weight: 600;
+ }
+ #pagination a i{
+    font-size:16px;
+    font-weight: 600;
+ }
+  
+ 
+  
+ 
