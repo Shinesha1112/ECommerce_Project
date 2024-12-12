@@ -28,7 +28,7 @@ if (productDetailsContainer && productId) {
         <div class="single-pro-details">
         <h4>CASUAL WEAR</h4>
         <h4>${product.brand}</h4>
-        <h3>${product.price}</h3>
+        <h3>Rs.${product.price}</h3>
         <select>
         <option>Select Size</option>
         <option>S</option>
@@ -38,13 +38,19 @@ if (productDetailsContainer && productId) {
         <option>Large</option>
         </select>
         <input type="number" value="1">
-        <button class="normal">Add To Cart</button>
+        <button class="normal" id="addToCartBtn">Add To Cart</button>
         <div class="star">${starsHTML}</div>
         <h4>Product Details</h4>
         <span>${product.description}</span>
         </div> `
        
         ;
+        const addToCartBtn = document.getElementById("addToCartBtn");
+        addToCartBtn.addEventListener("click", () => {
+            
+            addToCart(product);
+            addToCartBtn.innerHTML="Added to cart";
+        });
     } else {
         productDetailsContainer.innerHTML = `<p>Product not found.</p>`;
     }
@@ -52,6 +58,20 @@ if (productDetailsContainer && productId) {
     console.error("Product ID is missing or product details container not found.");
 }
 
+function addToCart(product) {
+
+    const quantityInput = document.getElementById("quantity");
+    const quantity = quantityInput ? parseInt(quantityInput.value) : 1;
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+    const existingProduct = cart.find(item => item.id === product.id);
+    if (existingProduct) {
+        existingProduct.quantity += quantity;
+    } else {
+        cart.push({ ...product, quantity });
+    }
+    localStorage.setItem("cart", JSON.stringify(cart));
+
+}
 var MainImg =document.getElementById("mainImg");
 var SmallImg =document.getElementsByClassName("sm-img");
 SmallImg[0].onclick =function(){
@@ -63,8 +83,3 @@ SmallImg[1].onclick =function(){
 SmallImg[2].onclick =function(){
     MainImg.src =SmallImg[2].src;
 }
-
-
-
-
-

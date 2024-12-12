@@ -15,7 +15,7 @@ if (productContainer) {
                     <span>${product.brand}</span>
                     <h5>${product.description}</h5>
                     <div class="star">${starsHTML}</div>
-                    <h4>${product.price}</h4>
+                    <h4>Rs.${product.price}</h4>
                 </div>
                 <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
 

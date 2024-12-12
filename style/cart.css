@@ -17,7 +17,7 @@
  }
  #cart table td:nth-child(3){
      width:250px;
-     text-align: center;
+     text-align:center;
  }#cart table td:nth-child(4),
  #cart table td:nth-child(5),#cart table td:nth-child(6)
  {
@@ -45,4 +45,40 @@
  #cart table tbody td{ 
      font-size: 13px;
  }
- 
+ @media (max-width: 480px) {
+    #cart table {
+        display: flex;
+        width: 100%;
+    }
+    
+    #cart table thead {
+        display: none;
+    }
+    #cart table tbody tr {
+        display:block;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        padding: 6px;
+        border-radius: 10px;
+    }
+    #cart table tbody td {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding-bottom: 8px;
+        font-size: 20px;
+      
+    }
+    #cart table tbody td:nth-child(1) img {
+        margin-right: 6px;
+    }
+    #cart table tbody td::before {
+        content: attr(data-label);
+        font-weight: 900;
+        width:50%;
+        align-items: center;
+      
+    } 
+
+   
+}

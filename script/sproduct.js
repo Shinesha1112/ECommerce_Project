@@ -5,7 +5,7 @@ export const singleProducts = [
         img3:"../img/products/f5.jpg",
         brand: "HI-FASHION",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
-        price: "Rs. 500",
+        price: "500",
         stars: 4
     },
     {   
@@ -16,7 +16,7 @@ export const singleProducts = [
         brand: "LAND",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
 
-        price: "Rs. 499",
+        price:"499",
         stars: 3
     },
     {
@@ -27,7 +27,7 @@ export const singleProducts = [
         brand: "TRENDY",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
 
-        price: "Rs. 799",
+        price: "799",
         stars: 5
     },
     {
@@ -38,7 +38,7 @@ export const singleProducts = [
         brand: "FASHION",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
 
-        price: "Rs. 456",
+        price: "456",
         stars: 4
     },
     {
@@ -49,7 +49,7 @@ export const singleProducts = [
         brand: "PARK",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
 
-        price: "Rs. 799",
+        price: "799",
         stars: 5
     },
     {
@@ -60,7 +60,7 @@ export const singleProducts = [
         brand: "MARK",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
 
-        price: "Rs. 379",
+        price: " 379",
         stars: 4
     },
     {
@@ -72,7 +72,7 @@ export const singleProducts = [
         brand: "INDO",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
 
-        price: "Rs. 799",
+        price: "799",
         stars: 5
     },
     {
@@ -84,7 +84,7 @@ export const singleProducts = [
         brand: "PARK",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
 
-        price: "Rs. 399",
+        price: "399",
         stars: 3
     },
     {
@@ -94,7 +94,7 @@ export const singleProducts = [
         img3: "../img/products/f6.jpg",
         brand: "SCOTT",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
-        price: "Rs. 349",
+        price: "349",
         stars: 4
     },
     {
@@ -104,7 +104,7 @@ export const singleProducts = [
         img3: "../img/products/n1.jpg",
         brand: "PERFECT",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
-        price: "Rs. 599",
+        price: "599",
         stars: 3
     },
     {
@@ -114,7 +114,7 @@ export const singleProducts = [
         img3: "../img/products/f1.jpg",
         brand: "PERFECT",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
-        price: "Rs. 819",
+        price: "819",
         stars: 5
     },
     {
@@ -124,7 +124,7 @@ export const singleProducts = [
         img3: "../img/products/n1.jpg",
         brand: "BROOK",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
-        price: "Rs. 299",
+        price: "299",
         stars: 3
     },
     {
@@ -134,7 +134,7 @@ export const singleProducts = [
         img3: "../img/products/f3.jpg",
         brand: "BROOK",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
-        price: "Rs. 399",
+        price: "399",
         stars: 4
     },
     {
@@ -144,7 +144,7 @@ export const singleProducts = [
         img3: "../img/products/n3.jpg",
         brand: "INDO",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
-        price: "Rs. 569",
+        price: "569",
         stars: 4
     },
     {
@@ -154,7 +154,7 @@ export const singleProducts = [
         img3: "../img/products/f5.jpg",
         brand: "PREMIUM",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
-        price: "Rs. 699",
+        price: "699",
         stars: 5
     },
     { 
@@ -164,7 +164,7 @@ export const singleProducts = [
         img3: "../img/products/n5.jpg",
         brand: "SCOTT",
         description: " Casual wear is a relaxed and comfortable style of clothing designed for everyday use. It blends simplicity with functionality, offering versatile options such as jeans, t-shirts, and casual shirts. Perfect for informal settings, casual wear emphasizes ease and personal expression while maintaining a neat and stylish appearance. ",
-        price: "Rs. 499",
+        price: "499",
         stars: 5
     }
   
