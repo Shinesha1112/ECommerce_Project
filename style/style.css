@@ -109,7 +109,7 @@
       height:90vh;
       width:100%;
       background-size:cover;
-      background-position: top 25% ;
+      background-position: top 25% right 50% ;
       background-repeat: no-repeat;
       padding: 0 75px;
       display: flex;
@@ -435,7 +435,7 @@
     #bodycontent{
       height:70vh;
       padding: 0 80px;
-      background-position:top 30% right 30% ;
+      background-position:top 30% right 40% ;
     }
      #feature{
       justify-content: center;
