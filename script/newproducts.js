@@ -42,7 +42,7 @@ export const newArrival=[
         stars: 5
     },
     {
-        img: "/ECommerce_Project/img/products/n7.jpg",
+        img: "./img/products/n7.jpg",
         brand: "SCOTT",
         description: "casual Shirt With Full Sleeve",
         price: "Rs. 499",
