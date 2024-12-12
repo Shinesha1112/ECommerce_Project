@@ -32,10 +32,10 @@ if (productDetailsContainer && productId) {
         <select>
         <option>Select Size</option>
         <option>S</option>
+         <option>M</option>
+        <option>L</option>
         <option>XL</option>
         <option>XXL</option>
-        <option>Small</option>
-        <option>Large</option>
         </select>
         <input type="number" value="1">
         <button class="normal" id="addToCartBtn">Add To Cart</button>
